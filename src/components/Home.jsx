@@ -57,9 +57,12 @@ const Home = () => {
 
                 {/* Buttons Section (25% width) */}
                 <div className="w-[200px] flex flex-col space-y-4 text-xl font-semibold">
-                    <button className="bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-500  h-14 border-white border-[3px] flex">
+                    <Link to='/login'>
+                    <button className="bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-500  h-14 border-white border-[3px] flex w-[200px]">
                         <img src="/projectV1.png" alt="" className='w-[24px] h-[24px] mr-5 mt-1 ml-2' /> Student
                     </button>
+                    </Link>
+                    
                     <button className="bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-500  h-14 border-white border-[3px] flex">
                         <img src="/rec.png" alt="" className='w-[24px] h-[24px] mr-5 mt-1 ml-2' /> Recruiter
                     </button>

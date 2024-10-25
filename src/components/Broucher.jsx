@@ -137,7 +137,7 @@ const Broucher = () => {
             <div className="w-1/4 ml-8">
                 <ul className="font-semibold items-left   text-2xl text-[#607d8b] mt-6 leading-8 ml-5 space-y-4 ">
                     <li className=" p-4 rounded-lg h-[100px] hover:bg-gray-100 border-b">
-                        <a href="/broucher.pdf"
+                        <a href="/24re.pdf"
                             target="_blank"  
                             rel="noopener noreferrer" className="flex text-left text-[#607d8b] ">
                             <span className="mr-2">📘</span> Placement Brochure 2024-25

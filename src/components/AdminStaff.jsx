@@ -13,7 +13,7 @@ const administrativeStaff = [
 const StaffCard = ({ name, role, phone, email }) => (
   <div className="bg-white shadow-md p-4 rounded-lg flex items-center text-justify space-x-4 w-[470px]">
     <div className="w-24 h-24 bg-gray-200  flex-shrink-0" >
-        <img src="/admin.png" alt="" className='w-24 h-24' />
+        <img src="/adm.png" alt="" className='w-24 h-24' />
     </div>
     <div>
       <h3 className="text-lg font-semibold">{name}</h3>
@@ -34,7 +34,7 @@ const StaffCard = ({ name, role, phone, email }) => (
 
 const AdminStaff = () => (
   <div className="bg-white shadow-md h-[300px] mb-16 p-8">
-    <h1 className="text-3xl font-bold mb-6">Administrative Staff</h1>
+    <h1 className="text-3xl font-bold mb-6">Administration</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {administrativeStaff.map((staff, index) => (
         <StaffCard
