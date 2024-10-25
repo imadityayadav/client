@@ -2,7 +2,11 @@ import React from 'react'
 import Broucher from './Broucher';
 import Cta from './Cta';
 import Message from './Message';
+import RecruitmentProcess from './RecruitmentProcess';
 import { Link } from 'react-router-dom';
+import ContactUs from './ContactUs';
+import Coordinators from './Coordinators';
+import AdminStaff from './AdminStaff';
 
 
 const Home = () => {
@@ -36,7 +40,7 @@ const Home = () => {
                 </div>
             </nav>
 
-            {/* Main content container (Grid layout) */}
+            
 
             {/* Main content container using Flexbox */}
             <div className="relative z-10 flex items-center   mx-auto max-w-7xl px-4 py-16">
@@ -65,6 +69,7 @@ const Home = () => {
 
                 </div>
             </div>
+            
             {/* Broucher Section */}
             <Broucher/>
 
@@ -73,6 +78,20 @@ const Home = () => {
 
             {/* Director Message */}
             <Message/>
+
+            {/* Recruitment Process */}
+            <RecruitmentProcess/>
+
+            {/* ContactUs */}
+            <ContactUs/>
+
+            {/* Coordinators */}
+            <Coordinators/>
+
+            {/* Staff */}
+            <AdminStaff/>
+
+
         </div>
     );
 }

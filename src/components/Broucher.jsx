@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Broucher = () => {
     //   return (
@@ -116,7 +117,7 @@ const Broucher = () => {
                 <div className="bg-white shadow-md p-6 rounded-lg w-[500px] h-[370px] text-left">
                     <h3 className="text-xl font-semibold mb-4">Departments & Programs at IIITDM Kurnool</h3>
                     <p>
-                    IIITDM Kurnool is known as a premier engineering, science, and technology institute in
+                        IIITDM Kurnool is known as a premier engineering, science, and technology institute in
                         India. Currently, it offers an opportunity to learn in 20 varied departments and
                         pursue 10 programs.
                     </p>
@@ -136,31 +137,37 @@ const Broucher = () => {
             <div className="w-1/4 ml-8">
                 <ul className="font-semibold items-left   text-2xl text-[#607d8b] mt-6 leading-8 ml-5 space-y-4 ">
                     <li className=" p-4 rounded-lg h-[100px] hover:bg-gray-100 border-b">
-                        <a href="#" className="flex text-left text-[#607d8b] ">
-                            <span className="mr-2">📘</span> Placement Brochure 2023-24
-                            
+                        <a href="/broucher.pdf"
+                            target="_blank"  
+                            rel="noopener noreferrer" className="flex text-left text-[#607d8b] ">
+                            <span className="mr-2">📘</span> Placement Brochure 2024-25
+
+                        </a>
+                        
+                    </li>
+                    <li className=" p-4 rounded-lg h-[100px] hover:bg-gray-100 border-b">
+                        <a href="/23.pdf" target="_blank"  
+                            rel="noopener noreferrer" className="flex text-left text-[#607d8b] ">
+                            <span className="mr-2">📄</span> Placement Brochure 2023-24
+
                         </a>
                     </li>
                     <li className=" p-4 rounded-lg h-[100px] hover:bg-gray-100 border-b">
-                        <a href="#" className="flex text-left text-[#607d8b] ">
+                        <a href="/22.pdf" target="_blank"  
+                            rel="noopener noreferrer" className="flex text-left text-[#607d8b] ">
                             <span className="mr-2">📄</span> Placement Brochure 2022-23
-                            
+
                         </a>
                     </li>
                     <li className=" p-4 rounded-lg h-[100px] hover:bg-gray-100 border-b">
-                        <a href="#" className="flex text-left text-[#607d8b] ">
+                        <a href="/21.pdf" target="_blank"  
+                            rel="noopener noreferrer" className="flex text-left text-[#607d8b] ">
                             <span className="mr-2">📄</span> Placement Brochure 2021-22
-                            
+
                         </a>
                     </li>
-                    <li className=" p-4 rounded-lg h-[100px] hover:bg-gray-100 border-b">
-                        <a href="#" className="flex text-left text-[#607d8b] ">
-                            <span className="mr-2">📄</span> Placement Brochure 2020-21
-                            
-                        </a>
-                    </li>
-                    
-                    
+
+
                 </ul>
             </div>
         </div>

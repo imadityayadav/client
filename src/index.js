@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Broucher from './components/Broucher';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PlacementLogin from './components/PlacementLogin';
+import RegisterNow from './components/RegisterNow';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +12,8 @@ root.render(
   <Routes>
     <Route path="/" element={<App />} />
     {/* This is the new route for Director's message */}
-    <Route path="/Broucher" element={<Broucher />} />
+    <Route path="/login" element={<PlacementLogin />} />
+    <Route path="/register" element={<RegisterNow />} />
   </Routes>
 </BrowserRouter>,
 );
